@@ -35,5 +35,40 @@ Ans : length is a field, containing the capacity (NOT the number of elements the
  length() is a method used by Strings (amongst others), it returns the number of chars in the String; with Strings,
  capacity and number of containing elements (chars) have the same value.
 
+
+                   ** Objects **
+
+1. How to create an object in java ?
+Ans : Java provides five ways to create an object.
+Using new Keyword.
+Using clone() method.
+Using newInstance() method of the Class class.
+Using newInstance() method of the Constructor class.
+Using Deserialization
+
+2. What is the use of a new keyword in Java ?
+Ans : The new keyword in Java is used to create an instance of a class, also known as an object.
+The new keyword in Java is used to allocate memory for the object on the heap, the memory space where objects are stored.
+ The new keyword in Java calls the constructor of a class to initialize the object's state.
+
+3. What are the different types of variables in Java ?
+Ans : There are three different types of variables in Java, we have listed them as follows:
+Local Variables.
+Instance Variables.
+Static Variables.
+
+4. What is the difference between Instance variables and Local variables ?
+Ans : Variables declared within a method are local variables. An instance variable is declared inside a class but outside of any method or block.
+ Static variables are declared inside a class but outside of a method starting with a keyword static.
+
+5. In which area memory is allocated for instance variable and local variable ?
+Ans : Stack is a memory place where the methods and the local variables are stored.
+ (variable references either primitive or object references are also stored in the stack).
+ Heap is a memory place where the objects and its instance variable are stored.
+
+6. What is method overloading ?
+Ans : Method overloading is a feature in Java that allows a programmer to define multiple methods in a class with the same name,
+ but with different parameters. What is the difference between Overloading and Overriding? Method Overloading has two or more methods in a class with the same name but different parameters.
+
   
        
